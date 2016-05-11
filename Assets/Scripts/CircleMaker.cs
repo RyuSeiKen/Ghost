@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Renderer))]
 public class CircleMaker : MonoBehaviour
 {
 	float frequency = 1.0f;
