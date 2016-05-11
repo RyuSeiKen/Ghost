@@ -1,9 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FillRoom.cs">
     <Files>
       <File FileName="Assets\Scripts\FillRoom.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RoomManager.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CircleMaker.cs" Line="43" Column="73" />
+      <File FileName="Assets/Scripts/Simple2DMoveController.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/FillRoom.cs" Line="128" Column="3" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
+>>>>>>> 84a7ad38f81128664b8821b572b9df9c9c5396ae
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class FillRoom : MonoBehaviour {
+public class FillRoom : MonoBehaviour 
+{
 
 	GameObject GameManager;
 	GridManager Grid;
@@ -166,8 +167,11 @@ public class FillRoom : MonoBehaviour {
 		cibleCoins.Clear ();
 
 	}
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 84a7ad38f81128664b8821b572b9df9c9c5396ae
 }
 	
 
