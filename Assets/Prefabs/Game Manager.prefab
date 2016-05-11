@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _AllRooms:
-  - {fileID: 100350, guid: 94aecee4ddee7d14f9a7625f7003b348, type: 2}
+  - {fileID: 182336, guid: 7ab406c288a034aafb9a134dc020d331, type: 2}
   - {fileID: 142506, guid: 4041a0ea67d39334db8e67a943733221, type: 2}
   - {fileID: 193274, guid: 14eca88e52b82934daf3d7821ba4993d, type: 2}
   - {fileID: 160268, guid: 7f118518449371b45b9d4208131e0198, type: 2}
@@ -111,7 +111,7 @@ MonoBehaviour:
   - {fileID: 191060, guid: d812efa74b5b4a5418dff7572d60acfd, type: 2}
   - {fileID: 130374, guid: 1a7cc339f0abea74abbdfc0fa021ad92, type: 2}
   _downRooms:
-  - {fileID: 100350, guid: 94aecee4ddee7d14f9a7625f7003b348, type: 2}
+  - {fileID: 182336, guid: 7ab406c288a034aafb9a134dc020d331, type: 2}
   - {fileID: 110428, guid: db47b67a673ac8c4fbb40a3347e6f6bf, type: 2}
   - {fileID: 178368, guid: cda861b1b07a24441a4df00cb730a059, type: 2}
   - {fileID: 153082, guid: 6fbbcf20b4908d14aa5fad7e535c5819, type: 2}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a22831c6dedf14589e2980e4412eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  End: {fileID: 0}
+  End: {fileID: 131018, guid: 46dc3074de7cb5346ae34a931b6e9604, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
