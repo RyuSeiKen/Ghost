@@ -4,9 +4,9 @@
 public class CircleMaker : MonoBehaviour
 {
 	float frequency = 1.0f;
-	float amplitudeMin = 0.08f;
-	float amplitudeMax = 0.12f;
-	float feather = 0.1f;
+	float amplitudeMin = 0.015f;
+	float amplitudeMax = 0.015f;
+	float feather = 0f;
 	public GameObject room1;
 	GameObject room;
 	Material material;
@@ -31,28 +31,17 @@ public class CircleMaker : MonoBehaviour
 		material.SetFloat("_OffsetY", LocationInRoom().y);
 	}
 
-	void OnCollisionEnter(Collision col)
-	{
-		oldMaterial = material;
-		room = col.collider.gameObject;
-		material = room.GetComponent<Renderer>().material;
-
-		oldMaterial.SetFloat("_Radius", 0);
-		oldMaterial.SetFloat("_InnerRadius", 0);
-		oldMaterial.SetFloat("_OuterRadius", 0);
-	}
-
 	Vector2 LocationInRoom()
 	{
-		foreach(Transform child in room.transform)
+		foreach(Transform child in room1.transform)
 		{
 			if(child.tag == "BottomLeft")
 			{
 				currentBottomLeft = child;
 			}
 		}
-		float x = (transform.position.x - currentBottomLeft.position.x) / (10);
-		float y = (transform.position.y - currentBottomLeft.position.y) / (10);
+		float x = (transform.position.x - currentBottomLeft.position.x) / (150);
+		float y = (transform.position.y - currentBottomLeft.position.y) / (150);
 		return new Vector2(x, y);
 	}
 }
