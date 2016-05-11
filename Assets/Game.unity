@@ -558,7 +558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464284, guid: faa77647f3cf94ea89b0ad8d7bd00ed4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -1.03
       objectReference: {fileID: 0}
     - target: {fileID: 464284, guid: faa77647f3cf94ea89b0ad8d7bd00ed4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -584,7 +584,8 @@ Prefab:
       propertyPath: Level
       value: 
       objectReference: {fileID: 2129593196}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5410228, guid: faa77647f3cf94ea89b0ad8d7bd00ed4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: faa77647f3cf94ea89b0ad8d7bd00ed4, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &752782568
@@ -958,7 +959,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1226,6 +1226,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 423716, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1262,6 +1266,30 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[0]
+      value: 
+      objectReference: {fileID: 147364, guid: b66d74607a153474db6b043da64ae492, type: 2}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[1]
+      value: 
+      objectReference: {fileID: 101400, guid: ffe0e5a203611e041b2f4578ee5f9fa1, type: 2}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[2]
+      value: 
+      objectReference: {fileID: 148418, guid: db35fdd158f87944a9bb961b2822f5be, type: 2}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[3]
+      value: 
+      objectReference: {fileID: 101174, guid: 448c950bd595c8245b63b2219c123bb3, type: 2}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[4]
+      value: 
+      objectReference: {fileID: 125408, guid: 15cc50b67cb4a7f4fafad60dff8f038f, type: 2}
+    - target: {fileID: 11463016, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
+      propertyPath: _coins.Array.data[5]
+      value: 
+      objectReference: {fileID: 131350, guid: dff3a9494d98cd0409a47b38d753f9e0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9996a4ae50a7c2b48b9150e4fd217532, type: 2}
   m_IsPrefabParent: 0
@@ -1535,7 +1563,7 @@ GameObject:
   - 114: {fileID: 1731214197}
   m_Layer: 0
   m_Name: ScoreManager
-  m_TagString: Manager
+  m_TagString: ScoreManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
