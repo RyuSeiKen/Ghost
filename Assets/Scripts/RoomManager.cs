@@ -9,7 +9,7 @@ public class RoomManager : MonoBehaviour {
 	public List<GameObject> _rightRooms = new List<GameObject> ();
 	public List<GameObject> _upRooms = new List<GameObject> ();
 	public List<GameObject> _downRooms = new List<GameObject> ();
-
+	public List<GameObject> _coins =  new List<GameObject>();
 
 
 
