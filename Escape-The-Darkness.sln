@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0082E446-41CC-03FB-879B-796246DCF78D}") = "Escape-The-Darkness", "Assembly-CSharp.csproj", "{5F7BFC1B-D70C-FC37-D51D-052147CB3026}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F7BFC1B-D70C-FC37-D51D-052147CB3026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7BFC1B-D70C-FC37-D51D-052147CB3026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7BFC1B-D70C-FC37-D51D-052147CB3026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7BFC1B-D70C-FC37-D51D-052147CB3026}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
