@@ -8,6 +8,8 @@ public class FillRoom : MonoBehaviour {
 	GridManager Grid;
 	RoomManager RoomLists;
 	public GameObject End;
+	GameObject coinRoom;
+	GameObject cibleReward;
 
 	int ratioMax;
 	int ratioX;
@@ -71,21 +73,49 @@ public class FillRoom : MonoBehaviour {
 			
 		}
 
-		foreach (GameObject otherRoom in Grid._Dungeon) {
 
-			bool reward = true;
+			
+			
 
-			foreach (GameObject room in cible) {
+				int _random = Random.Range (0, 100);
 
-				if (otherRoom == room) {
-					reward = false;
+
+				switch (_random) 
+				{
+				case 0:
+					
+					coinRoom = Instantiate (RoomLists._coins [0]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+				case 30:
+					coinRoom = Instantiate (RoomLists._coins [1]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+				case 40:
+					coinRoom = Instantiate (RoomLists._coins [2]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+				case 50:
+					coinRoom = Instantiate (RoomLists._coins [3]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+				case 80:
+					coinRoom = Instantiate (RoomLists._coins [4]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+				case 90:
+					coinRoom = Instantiate (RoomLists._coins [5]) as GameObject;
+					coinRoom.transform.position = cibleReward.transform.position;
+					break;
+
+
+
 				}
-				
-			}
-
-			if (reward = true) {
-
-
 
 
 			}
