@@ -1119,7 +1119,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 16.83
   m_Depth: -1
   m_CullingMask:
@@ -1654,7 +1654,7 @@ Transform:
   m_GameObject: {fileID: 1816051284}
   m_LocalRotation: {x: -0.000000115202326, y: -0.7071068, z: 0.7071067, w: -0.00000011520231}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15, y: 1, z: 15}
+  m_LocalScale: {x: 60, y: 1, z: 60}
   m_Children:
   - {fileID: 1031811723}
   m_Father: {fileID: 0}

@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class FillRoom : MonoBehaviour {
+public class FillRoom : MonoBehaviour 
+{
 
 	GameObject GameManager;
 	GridManager Grid;
@@ -125,6 +126,4 @@ public class FillRoom : MonoBehaviour {
 
 
 	}
-	
-
 }

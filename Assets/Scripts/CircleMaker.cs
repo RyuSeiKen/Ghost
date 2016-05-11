@@ -39,8 +39,8 @@ public class CircleMaker : MonoBehaviour
 				currentBottomLeft = child;
 			}
 		}
-		float x = (transform.position.x - currentBottomLeft.position.x) / (150);
-		float y = (transform.position.y - currentBottomLeft.position.y) / (150);
+		float x = (transform.position.x - currentBottomLeft.position.x) / (600);
+		float y = (transform.position.y - currentBottomLeft.position.y) / (600);
 		return new Vector2(x, y);
 	}
 }
