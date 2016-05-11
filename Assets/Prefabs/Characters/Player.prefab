@@ -8,11 +8,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 464284}
-  - 135: {fileID: 13569122}
   - 114: {fileID: 11487050}
-  - 54: {fileID: 5410228}
   - 114: {fileID: 11463902}
   - 212: {fileID: 21279878}
+  - 54: {fileID: 5456260}
+  - 135: {fileID: 13575388}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -27,12 +27,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.01}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!54 &5410228
+--- !u!54 &5456260
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
   Up: 273
   Down: 274
   speed: 10
---- !u!135 &13569122
+--- !u!135 &13575388
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,7 +86,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.504444
+  m_Radius: 4.635
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &21279878
 SpriteRenderer:
