@@ -70,6 +70,27 @@ public class FillRoom : MonoBehaviour {
 			EndRoom.transform.position = room.transform.position;
 			
 		}
+
+		foreach (GameObject otherRoom in Grid._Dungeon) {
+
+			bool reward = true;
+
+			foreach (GameObject room in cible) {
+
+				if (otherRoom == room) {
+					reward = false;
+				}
+				
+			}
+
+			if (reward = true) {
+
+
+
+
+			}
+			
+		}
 			
 
 
