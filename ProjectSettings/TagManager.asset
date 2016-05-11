@@ -11,6 +11,8 @@ TagManager:
   - Coin
   - End
   - Level
+  - RewardPref
+  - ScoreManager
   layers:
   - Default
   - TransparentFX

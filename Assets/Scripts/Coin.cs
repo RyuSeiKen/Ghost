@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour {
 	ScoreManager Score;
 	// Use this for initialization
 	void Start () {
-		Manager = GameObject.FindGameObjectWithTag ("Manager");
+		Manager = GameObject.FindGameObjectWithTag ("ScoreManager");
 		Score = Manager.GetComponent<ScoreManager> ();
 
 	}
